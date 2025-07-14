@@ -1,9 +1,7 @@
-# import ecommerce.shipping
-
-# ecommerce.shipping.calc_shipping()
+from pathlib import Path
 
 
-from ecommerce.shipping import calc_shipping
+path = Path()
 
-
-calc_shipping()
+for file in path.glob("*"):
+    print(file)
